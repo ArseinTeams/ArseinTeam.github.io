@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ArseinRubika</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+  <link rel="stylesheet" href="/assets/css/bootstrap.css">
+  <link rel="stylesheet" href="/assets/css/font-awesome.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/highlightTheme.css" type="text/css" media="all" />
+</head>
+<body>
+  <main class="main bg-dark text-white pb-5 pt-2">
+    <div class="container">
+      <div class="row align-items-center d-flex flex-column">
+        <div dir="rtl" class="col-12 px-3">
+          <h6 dir="ltr">Welcome to ArseinRubika</h6>
+          <div class="information-container m-3 d-flex justify-content-center">
+            <div dir="rlt" class="brand-box d-flex align-items-center">
+            <h1>ArseinRubika</h1>
+            <img class="logo" src="/assets/img/ArseinRubika.png" alt="logo" width="70">
+          </div>
+          </div>
+            <p dir="ltr" class="text-center">
+               Accessing Rubika's Private Api with Python
+            </p>
+        </div>
+        <div class="code-box">
+<pre class="code-viewer">
+<a class="copy-icon p-2" id="copy-text"><i class="fa fa-copy" id="icon-copy"></i></a>
+<code class="language-python" dir="ltr" id="code">
+</code>
+</pre>
+        </div>
+        <p dir="ltr" class="description"><b> ArseinRubika </b> Elegant, modern and asynchronous Rubika MTProto API framework in Python for users and bots <a class="link-warning" href="#">   MTProto API </a>Key Features
+Ready: Install ArseinRubika with pip and start building your applications right away.
+Easy: Makes the Rubika API simple and intuitive, while still allowing advanced usages.
+Elegant: Low-level details are abstracted and re-presented in a more convenient way.
+Fast: Boosted up by pycryptodome, a high-performance cryptography library written in C.
+Async: Fully asynchronous (also usable synchronously if wanted, for convenience).
+Powerful: Full access to Rubika's API to execute any official client action and more.</p>
+        <h1 dir="ltr" class="title"> Protection#</h1>
+        <p dir="ltr">If you want to support ArseinRubika, you can consider:</p>
+        <ul dir="ltr">
+          <li><a class="link-warning" href="#">GitHub</a></li>
+          <li><a class="link-warning" href="#">My Channel in Rubika</a></li>
+          <li><a class="link-warning link" href="#">My Group in Rubikaا</a></li>
+        </ul>
+        <h1 dir="ltr" class="title">sendMessage</h1>
+        <p dir="ltr">this method for send text to any chat pv channel and group or bot suport mention text</p>
+        <h5 class="title" dir="ltr">parameters method</h5>
+        <ol dir="ltr">
+          <li>guid</li>
+          <li>text</li>
+          <li>message id for repley</li>
+        </ol>
+      </div>
+      <div dir="rtl" class="buttons">
+        <a href="/pages/"><i class="fa fa-arrow-right text-warning"></i> next</a>
+        <a href="/pages/" class="float-start">prev<i class="fa fa-arrow-left text-warning"></i></a>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-dark shadow-lg text-white-50">
+    <div class="container">
+     <div class="row justify-content-center p-4">
+      <div class="col-12 col-lg-4 col-md-6">
+        <p class="fw-bolder text-center">DESIGNER : <a class="link-warning" href="https://rubika.ir/techcode_dev">TechCode</a></p> 
+      </div>
+      <div class="col-12 col-lg-4 col-md-6">
+        <p class="text-center">Pyrogram  Copyright 2023 - 2024 </p> 
+      </div>
+    </div>
+    </div>
+  </footer>
+  
+ <script>
+   let code = `
+from arsein import Messenger
+
+bot = Messenger("Your Auth Account"," key Account")
+
+gap = "your guid or gap or pv or channel"
+
+bot.sendMessage(gap,"libraryArsein")
+   `
+   document.getElementById("code").innerHTML=code
+ </script> 
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+<script>hljs.highlightAll();</script>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
